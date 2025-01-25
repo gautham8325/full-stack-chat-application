@@ -1,21 +1,17 @@
-# ✨ Full Stack Realtime Chat App ✨
-
+#  Full Stack Realtime Chat App 💻
 ![Demo App](/frontend/public/screenshot-for-readme.png)
 
-[Video Tutorial on Youtube](https://youtu.be/ntKkVrQqBYY)
+### Highlights  
+- **Tech Stack:** MERN (MongoDB, Express.js, React.js, Node.js) + Socket.io + TailwindCSS + DaisyUI  
+- **Authentication & Authorization:** Implemented using JWT (JSON Web Token)  
+- **Real-Time Messaging:** Powered by Socket.io for seamless communication  
+- **Online User Status:** Displayed and managed efficiently  
+- **Global State Management:** Handled using Zustand for a streamlined user experience  
+- **Error Handling:** Implemented on both the server and client sides  
+- **Deployment:** Deployed the application professionally and for free  
+- **And much more!**
 
-Highlights:
-
-- 🌟 Tech stack: MERN + Socket.io + TailwindCSS + Daisy UI
-- 🎃 Authentication && Authorization with JWT
-- 👾 Real-time messaging with Socket.io
-- 🚀 Online user status
-- 👌 Global state management with Zustand
-- 🐞 Error handling both on the server and on the client
-- ⭐ At the end Deployment like a pro for FREE!
-- ⏳ And much more!
-
-### Setup .env file
+### Setup .env File
 
 ```js
 MONGODB_URI=...
@@ -28,15 +24,13 @@ CLOUDINARY_API_SECRET=...
 
 NODE_ENV=development
 ```
-
-### Build the app
-
-```shell
+# Build the App
+``
 npm run build
+``
+
+# Start the App
 ```
-
-### Start the app
-
-```shell
 npm start
+
 ```
